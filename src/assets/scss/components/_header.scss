@@ -1,0 +1,64 @@
+.header{
+    min-height: 988px;
+    background: #000;
+
+    &__top{
+        height: 29px;
+        padding: 7px 0;
+
+        &-text{
+            color: #FBFBFB;
+
+            font-size: 12px;
+            text-align: center;
+            line-height: 15px;
+        }
+    }
+
+    &__information{
+        height: 66px;
+        background: #E5E5E5;
+
+        padding: 0 20px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__menu{
+
+
+
+        &-link{
+            font-size: 14px;
+            line-height: 21px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: #000000;
+            margin-right: 22px;
+
+            
+        }
+    }
+
+    &__personal{
+        display: flex;
+
+       
+
+        &-link{
+            background: url('./../images/header-persona.png');
+            width: 16.92px;
+            height: 16.92px;   
+            
+            &:last-child{
+                background:url('./../images/header-cart.png');
+                width: 16.92px;
+                height: 14.37px;
+                margin-left: 11px;
+            }
+        }
+
+    }
+}
