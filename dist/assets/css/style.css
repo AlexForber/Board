@@ -30,12 +30,22 @@ a {
 .header__information {
     height: 66px;
     background: #E5E5E5;
+    padding: 0 20px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: justify;
     justify-content: space-between;
     -ms-flex-align: center;
     align-items: center;
+}
+
+.header__menu-link {
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-right: 22px;
 }
 
 .header__personal {
@@ -47,4 +57,15 @@ a {
     background: url("./../images/header-persona.png");
     width: 16.92px;
     height: 16.92px;
+}
+
+.header__personal-link:last-child {
+    background: url("./../images/header-cart.png");
+    width: 16.92px;
+    height: 14.37px;
+    margin-left: 11px;
+}
+
+.header__main {
+    background-image: url("./../images/header-bg.jpg") center center/cover no-repeat;
 }
