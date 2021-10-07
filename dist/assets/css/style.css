@@ -13,7 +13,7 @@ a {
 }
 
 .header {
-    min-height: 988px;
+    min-height: 80px;
     background: #000;
 }
 
@@ -69,7 +69,7 @@ a {
 }
 
 .header__main {
-    min-height: 810px;
+    min-height: 725px;
     width: 100%;
     background-image: url("./../images/header-bg.jpg");
     background-size: contain;
@@ -115,6 +115,7 @@ a {
 }
 
 .header__bottom {
+    height: 83px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: space-evenly;
