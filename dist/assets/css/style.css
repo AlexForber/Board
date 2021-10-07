@@ -175,7 +175,12 @@ a {
 
 .boosted__block::after {
     content: ' ';
-    background-image: url("./../images/boosted/lightning.png");
+    background-image: url(./../images/boosted/lightning.png);
+    width: 29px;
+    height: 47px;
+    position: absolute;
+    top: 39%;
+    left: 47%;
 }
 
 .boosted__block-link {
@@ -195,4 +200,9 @@ a {
     justify-content: center;
     -ms-flex-align: center;
     align-items: center;
+}
+
+.electricboard {
+    min-height: 736px;
+    background-color: red;
 }
