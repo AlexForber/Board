@@ -204,5 +204,50 @@ a {
 
 .electricboard {
     min-height: 736px;
-    background-color: red;
+    background-image: url("./../images/boosted/El-boards.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 44px;
+}
+
+.electricboard__subtext {
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 1px;
+}
+
+.electricboard__title {
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 51px;
+    color: #000000;
+    margin-top: 11px;
+}
+
+.electricboard__text {
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 1px;
+    color: #000000;
+    width: 488px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.electricboard__button {
+    width: 201px;
+    height: 33px;
+    background: #FF4A32;
+    border-radius: 35px;
+    border: transparent;
+    color: #FFFFFF;
+    margin-top: 20px;
 }
