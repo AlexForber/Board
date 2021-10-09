@@ -1,0 +1,50 @@
+.shop{
+    min-height: 480px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    &__block{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__block:first-child{
+        background-image: url('./../images/shop/first.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+
+    }
+
+    &__block:nth-child(2){
+        background-image: url('./../images/shop/second.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    &__block:last-child{
+        background-image: url('./../images/shop/third.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    &__link{
+        display: block;
+        max-width: 240px;
+        font-size: 25px;
+        line-height: 30px;
+       
+        color: #FFFFFF;
+    }
+
+    &__sublink{
+        font-size: 18px;
+        line-height: 23px;
+        color: #FFFFFF;
+
+        margin-top: 15px;
+    }
+
+
+}
