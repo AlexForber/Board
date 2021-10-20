@@ -308,3 +308,77 @@ a {
     border: transparent;
     margin-top: 18px;
 }
+
+.shop {
+    min-height: 480px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.shop__block {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.shop__block:first-child {
+    background-image: url("./../images/shop/first.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.shop__block:nth-child(2) {
+    background-image: url("./../images/shop/second.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.shop__block:last-child {
+    background-image: url("./../images/shop/third.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.shop__link {
+    display: block;
+    max-width: 240px;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.shop__sublink {
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+
+.accessories {
+    min-height: 500px;
+    padding: 64px 0 28px;
+}
+
+.accessories__title {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.accessories__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.accessories__shadow {
+    height: 66px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 2px 0px 10px rgba(41, 44, 61, 0.34);
+    border-radius: 0px;
+}
