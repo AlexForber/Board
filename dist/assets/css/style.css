@@ -371,14 +371,140 @@ a {
     text-align: center;
 }
 
+.accessories__title::after {
+    content: ' ';
+    display: block;
+    margin: 0 auto;
+    margin-top: 22px;
+    width: 70px;
+    height: 2px;
+    background: #CFCFCF;
+}
+
 .accessories__wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
+.accessories__link {
+    display: block;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #FF4A32;
+}
+
 .accessories__shadow {
-    height: 66px;
     background: rgba(255, 255, 255, 0.9);
     box-shadow: 2px 0px 10px rgba(41, 44, 61, 0.34);
     border-radius: 0px;
+    height: 66px;
+    margin-top: 25px;
+}
+
+.benefits {
+    min-height: 308px;
+    background: #000;
+    color: #fff;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.benefits__block {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 35px 0 50px;
+}
+
+.benefits__title {
+    font-weight: bold;
+    font-size: 31px;
+    line-height: 36px;
+    /* identical to box height, or 116% */
+    text-align: center;
+    margin-top: 5px;
+}
+
+.benefits__text {
+    font-size: 15px;
+    line-height: 22px;
+    max-width: 280px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.footer {
+    min-height: 400px;
+}
+
+.footer__top {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: #F7F7F7;
+    padding: 49px 143px 50px 130px;
+}
+
+.footer__block {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.footer__block:first-child {
+    content: ' ';
+    background: url(".././images/footer-logo.png") center center/cover no-repeat;
+    height: 134px;
+    width: 160px;
+}
+
+.footer__title {
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.footer__link {
+    font-size: 13px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.footer__text {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 19px;
+}
+
+.footer__address {
+    font-size: 13px;
+    line-height: 21px;
+}
+
+.footer__bottom {
+    min-height: 70px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.footer__bottom-text {
+    font-size: 13px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.footer__bottom-modificator {
+    color: #FF4A32;
 }

@@ -1,0 +1,81 @@
+.footer{
+    min-height: 400px;
+
+    &__top{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        background: #F7F7F7;
+
+        padding: 49px 143px 50px 130px;
+    }
+
+    &__block{
+        display: flex;
+        flex-direction: column;
+        
+        
+
+
+        &:first-child{
+            content: ' ';
+            background: url('.././images/footer-logo.png') center center/cover no-repeat;
+            height: 134px;
+            width: 160px;
+        }
+    }
+
+    &__title{
+        font-size: 20px;
+        line-height: 30px;
+        /* identical to box height, or 150% */
+
+
+        color: #000000;
+        margin-bottom: 10px;
+    }
+
+    &__link{
+        font-size: 13px;
+        line-height: 21px;
+        
+        color: #000000;
+
+        
+    }
+
+    &__text{
+        font-size: 14px;
+        line-height: 21px;
+        margin-bottom: 19px;
+    }
+
+    &__address{
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+
+    &__bottom{
+        min-height: 70px;
+        padding: 0 130px;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+
+        &-text{
+            font-size: 13px;
+            line-height: 19px;
+            
+
+
+            color: #000000;
+        }
+
+        &-modificator{
+            color: #FF4A32;
+        }
+    }
+}
